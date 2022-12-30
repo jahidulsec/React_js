@@ -2,7 +2,7 @@
 import './App.css';
 
 const Button = ({children, backgroundColor}) => {
-  return <button backgroundColor={{backgroundColor}}>{children}</button>
+  return <button background-color={{backgroundColor}}>{children}</button>
 }
 
 const Alert = ({children}) => {
@@ -21,8 +21,8 @@ const DeleteButton = () => {
 function App() {
   return (
     <div className='App'>
-      <header>Little Lemon</header>
-      <Alert>
+      <header className="Header">Little Lemon</header>
+      <Alert className="Alert">
         <h4>Delete Account</h4>
         <p>
           Are you sure? Want to proceed? You will miss all your delicious receipes!
